@@ -6,7 +6,6 @@
 from setuptools import setup, find_packages
 
 import os
-import pip
 
 
 # We use the version to construct the DOWNLOAD_URL.
@@ -30,7 +29,7 @@ setup(
     url                  = REPO_URL,
     download_url         = DOWNLOAD_URL,
     license              = 'MIT',
-    packages             = find_packages(session=pip.download.PipSession()),
+    packages             = find_packages(),
     install_requires     = [
         'statsd==2.0.3',
     ],
