@@ -12,7 +12,7 @@ import os
 VERSION      = '0.2.4'
 
 # URL to the repository on Github.
-REPO_URL     = 'https://github.com/krux/python-kruxstatsd'
+REPO_URL     = 'https://github.com/lyft/python-kruxstatsd'
 
 # Github will generate a tarball as long as you tag your releases, so don't
 # forget to tag!
